@@ -106,7 +106,7 @@ const Login = () => {
             <span className="text-sm text-slate-600">Remember me</span>
           </label>
           <Link
-            to="#"
+            to="/forgot-password"
             className="text-sm font-medium text-violet-600 transition-colors hover:text-violet-700"
           >
             Forgot password?

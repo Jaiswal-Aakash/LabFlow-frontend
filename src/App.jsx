@@ -11,6 +11,8 @@ import SessionDetailPage from "./pages/lab/SessionDetailPage";
 import OutputDumpPage from "./pages/lab/OutputDumpPage";
 import OutputDetailPage from "./pages/lab/OutputDetailPage";
 import SearchPage from "./pages/lab/SearchPage";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
 
 export default function App() {
   return (
@@ -20,6 +22,9 @@ export default function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
+          {/* <Route path="/reset-password/:token" element={<ResetPassword />} /> */}
+          <Route path="/reset-password" element={<ResetPassword />} />
           <Route
             path="/dashboard"
             element={
